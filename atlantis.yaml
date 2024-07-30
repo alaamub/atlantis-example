@@ -1,4 +1,5 @@
 # atlantis.yaml
+version: 3
 workflows:
   custom:
     plan:
