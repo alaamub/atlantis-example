@@ -1,8 +1,8 @@
-# atlantis.yaml
-version: 3
-workflows:
-  custom:
-    plan:
-      steps:
-      - run: terraform init -input=false
-      - run: terraform plan -input=false -refresh -out $PLANFILE
+# # atlantis.yaml
+# version: 3
+# workflows:
+#   custom:
+#     plan:
+#       steps:
+#       - run: terraform init -input=false
+#       - run: terraform plan -input=false -refresh -out $PLANFILE
